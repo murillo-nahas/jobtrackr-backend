@@ -3,7 +3,7 @@ services:
     container_name: jobtrackr-postgres
     image: postgres:17
     ports:
-      - 5432:5432
+      - 5433:5432
     environment:
       POSTGRES_USER: jobtrackr
       POSTGRES_PASSWORD: jobtrackr
